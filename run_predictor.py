@@ -1,8 +1,8 @@
 import os, sys
 if __name__ == '__main__':
   cmd = 'python ./base_predictor.py \
-                    --dir ./image/ \
-                    --save ./images_rects_lmks_outputs.txt \
+                    --dir /home/xuechao.shi/FER/code/code_35/FER_detector_lmks_tools/image/ \
+                    --save ./test.txt \
                     --select_type all'
   print(cmd)
   os.system('{}'.format(cmd))
