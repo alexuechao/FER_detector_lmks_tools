@@ -2,7 +2,7 @@
 
 ## Dependencies ##
 - Python 2.7
-- mxnet
+- mxnet > 1.0
 - h5py (Preprocessing)
 - sklearn (plot confusion matrix)
 
