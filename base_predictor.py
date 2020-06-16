@@ -17,7 +17,7 @@ import skimage.io
 import cv2
 import datetime
 import glob
-from Retinaface.retinaface import RetinaFace
+from Retinafaceme.retinaface import RetinaFace
 
 class DetectionPredictor():
 	def __init__(self, config):
@@ -181,7 +181,7 @@ def parse_args():
     parser.add_argument('--file', help='input image file', default='', type=str)
     parser.add_argument('--dir', help='input image dir', default='', type=str)
     parser.add_argument('--save', help='save result file.', required=False, type=str)
-    parser.add_argument('--prefix',help='input the model',default='./Retinaface/mnet.25/mnet.25',type=str)
+    parser.add_argument('--prefix',help='input the model',default='./Retinafaceme/mnet.25/mnet.25',type=str)
     parser.add_argument('--epoch', help='model epoch', default=0, type=int)
     parser.add_argument('--ctx_id', help='gpu id', default=-1, type=int)
     parser.add_argument('--threshold', help='the detect threshold', default=0.85, type=int)
